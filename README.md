@@ -38,6 +38,49 @@
 
 - google maps api key 만료되어 정상 동작하지 않을 수 있습니다.
 
+## 🌟 실행 화면
+
+<div style="margin-left:25px;">
+<img width="200" alt="메인 화면" src="https://user-images.githubusercontent.com/26592306/132131098-bf979235-ffb5-43a9-bcde-c1bfb9fe7085.png">
+<details>
+    <summary><b> 경로 설정 </b></summary>
+    <table>
+        <tbody>
+            <tr>
+                <td>현재 위치</td>
+                <td>핀 이동</td>
+                <td>장소 검색</td>
+            </tr>
+            <tr>
+                <td><img src="https://user-images.githubusercontent.com/26592306/132130050-650365aa-d5a7-4722-92cc-ab4a79bdb572.gif"/></td>
+                <td><img src="https://user-images.githubusercontent.com/26592306/132130043-41ec63e6-6825-4565-a61a-c238019ddae9.gif"/></td>
+                <td><img src="https://user-images.githubusercontent.com/26592306/132130034-a7a01bb7-cd14-4940-a64a-8921a28c48ee.gif"/></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+<details>
+    <summary><b> 호출 요청 </b></summary>
+    <img src="https://user-images.githubusercontent.com/26592306/132130748-cc7bb252-e5df-42f5-a12f-c04f50c5ed2f.gif" />
+</details>
+<details>
+    <summary><b> 요청 수락 </b></summary>
+    <img src="https://user-images.githubusercontent.com/26592306/132130742-8bd714c2-d263-43b8-b3c5-a058e352dbdb.gif" />
+</details>
+<details>
+    <summary><b> 호출 취소 </b></summary>
+    <img src="https://user-images.githubusercontent.com/26592306/132130750-9acf4866-0839-4d52-9d69-a6df3e9729c4.gif" />
+</details>
+<details>
+    <summary><b> 픽업 </b></summary>
+    <img src="https://user-images.githubusercontent.com/26592306/132130737-799fdcbf-94f6-4a80-81f9-dadab903560e.gif" />
+</details>
+<details>
+    <summary><b> 하차 </b></summary>
+    <img src="https://user-images.githubusercontent.com/26592306/132130746-147c4e26-299f-44e4-83ab-6347d1d9100f.gif" />
+</details>
+</div>
+
 <br />
 
 ## 🚀 How to start
