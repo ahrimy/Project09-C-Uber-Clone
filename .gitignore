@@ -129,9 +129,9 @@ sketch
 dist
 
 ### docker ###
-docker-compose.yml
-.docker/
-
+# docker-compose.yml
+# .docker/
+mongo/
 ### ssl ###
 ssl/
 

@@ -1,0 +1,14 @@
+services: # 이 항목 밑에 실행하려는 컨테이너 들을 정의
+  boostcamp-db: # 서비스 명
+    image: mongo:latest # 사용할 이미지
+    container_name: "boostcamp-db" # 컨테이너 이름 설정
+    ports:
+      - "9878:27017" # 접근 포트 설정 (컨테이너 외부:컨테이너 내부)
+    restart: always
+    environment: # -e 옵션
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: uber09CAdmin
+    volumes:
+      - ./.docker/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro # -v 옵션 (다렉토리 마운트 설정)
+      - ./.docker/mongo/db/:/data/db/ # -v 옵션 (다렉토리 마운트 설정)
+      - ./.docker/mongo/log/:/var/log/mongodb/ # -v 옵션 (다렉토리 마운트 설정)
