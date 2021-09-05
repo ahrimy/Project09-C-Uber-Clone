@@ -31,21 +31,21 @@ export default function PickUpMap({ isRider, riderLat, riderLng, driverLat, driv
       lat: driverLat,
       lng: driverLng,
     });
-  }, [driverLat]);
+  }, [driverLat, driverLng]);
 
   useEffect(() => {
     setRiderPos({
       lat: riderLat,
       lng: riderLng,
     });
-  }, [riderLat]);
+  }, [riderLat, riderLng]);
 
   useEffect(() => {
     setPickUpPos({
       lat: pickUpLat,
       lng: pickUpLng,
     });
-  }, [pickUpLat]);
+  }, [pickUpLat, pickUpLng]);
 
   return (
     <GoogleMap
